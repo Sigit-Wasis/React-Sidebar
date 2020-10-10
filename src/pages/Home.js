@@ -1,10 +1,13 @@
 import React from 'react'
+import logo from '../logo.png';
 
 function Home() {
     return (
-        <div className="home">
-            <h4>Home</h4>
-        </div>
+        <>
+            <div className="home">
+                <img src={logo} alt="Logo" className="logo"/>
+            </div>
+        </>
     )
 }
 
